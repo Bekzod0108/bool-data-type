@@ -7,4 +7,10 @@
         bool
     */
 
-void main() {}
+void main() {
+    int a=3;
+    bool ans;
+    ans=a<10;
+    ans=a>0;
+    print(ans);
+}
