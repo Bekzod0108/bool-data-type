@@ -11,6 +11,6 @@ bool func(int a, int b){
   return  a==b;
 }
 void main() {
-  print(func(2, 4));
+  print(func(2, 9));
 
 }

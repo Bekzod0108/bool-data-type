@@ -10,5 +10,5 @@ bool func(int a){
     return a>0;
 }
 void main() {
-   print(func(4));
+   print(func(5));
 }
