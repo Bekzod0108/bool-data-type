@@ -6,11 +6,9 @@
     Returns:
         bool
     */
-
+bool func(int b){
+    return b>=0;
+}
 void main() {
-    int a=-4;
-    bool ans;
-    ans=a>=0;
-    print(ans);
-
+   print(func(3));
 }

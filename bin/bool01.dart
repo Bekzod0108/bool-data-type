@@ -7,12 +7,10 @@
   Returns:
       bool
   */
-
+bool func(int a, int b){
+  return  a==b;
+}
 void main() {
-  int a=1;
-  int b=1;
-  bool ans;
-  ans=a==b;
-  print(ans);
+  print(func(2, 4));
 
 }
